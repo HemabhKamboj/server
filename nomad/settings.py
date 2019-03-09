@@ -34,7 +34,7 @@ SECRET_KEY = '5am=k_v$m7)96eare^ul3c8zdl$6sb&yxljidhhyfam+ul$(c!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = (os.environ.get('RUNNING_PROD') is None)
 
-ALLOWED_HOSTS = ['localhost', '.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.herokuapp.com']
 
 # GITHUB credentails for raising issues
 GITHUB_USERNAME = os.environ.get('GITHUB_CONFIG_USERNAME', None)
